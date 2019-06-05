@@ -31,7 +31,7 @@ public class StopwatchActivity extends AppCompatActivity {
         super.onSaveInstanceState(savedInstanceState);
         savedInstanceState.putInt("seconds", seconds);
         savedInstanceState.putBoolean("running", running);
-        savedInstanceState.putBoolean("waRunning", wasRunning);
+        savedInstanceState.putBoolean("wasRunning", wasRunning);
     }
 
     @Override
